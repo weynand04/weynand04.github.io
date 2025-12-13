@@ -143,14 +143,14 @@ nav {
 
 .nav-name {
   font-family: var(--font-heading);
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--text-primary);
+  font-size: 28px;
+  font-weight: 800;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0;
-}
-
-.nav-logo span {
-  color: var(--primary-color);
+  letter-spacing: -1px;
 }
 
 .nav-menu {
@@ -159,19 +159,24 @@ nav {
 
 .nav_menu_list {
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 
 .nav-link {
+  position: relative;
   font-weight: 500;
   color: var(--text-secondary);
   transition: .3s;
+  padding: 8px 18px;
+  border-radius: 20px;
 }
 
 .nav-link:hover,
 .active-link {
-  color: var(--text-primary);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.15);
+  text-shadow: none;
 }
 
 /* Mobile Menu */
@@ -554,22 +559,104 @@ nav {
 }
 
 /* ----- FOOTER ----- */
+/* ----- FOOTER ----- */
 footer {
-  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
   border-top: 1px solid var(--surface-glass-border);
   margin-top: 50px;
+  padding-block: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient blob for footer */
+footer::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: var(--primary-color);
+  opacity: 0.05;
+  filter: blur(100px);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .top-footer p {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: var(--font-heading);
   color: var(--text-primary);
+  letter-spacing: 1px;
+}
+
+.middle-footer .footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer_menu_list {
+  list-style: none;
 }
 
 .footer_menu_list a {
+  text-decoration: none;
   color: var(--text-secondary);
+  font-weight: 500;
+  transition: 0.3s;
+  position: relative;
+}
+
+.footer_menu_list a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%) scaleX(0);
+  width: 20px;
+  height: 2px;
+  background: var(--primary-color);
+  transition: 0.3s;
+  border-radius: 2px;
 }
 
 .footer_menu_list a:hover {
   color: var(--text-primary);
+}
+
+.footer_menu_list a:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+/* Reusing .icon class but ensuring it works here if structure differs, 
+   assuming HTML uses .icon inside the footer links as seen in index.html */
+
+.bottom-footer {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bottom-footer a {
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 /* ----- MEDIA QUERIES ----- */
