@@ -2,7 +2,11 @@
   {
     "title": "Company Profile - DoctorQuinsy",
     "year": "2019",
-    "tags": ["VueJs", "Bootstrap", "Figma"],
+    "tags": [
+      "VueJs",
+      "Bootstrap",
+      "Figma"
+    ],
     "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
     "image": "./assets/img/portfolio/1.svg",
     "link": "./doctor-quincy-landingpages/"
@@ -10,7 +14,9 @@
   {
     "title": "Company Profile - BP. PAM Effata Waupnor",
     "year": "2020",
-    "tags": ["Bootstrap 5"],
+    "tags": [
+      "Bootstrap 5"
+    ],
     "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
     "image": "./assets/img/portfolio/2.svg",
     "link": "./profile-pamEffata-FE/"
@@ -18,7 +24,11 @@
   {
     "title": "Company Profile - Dinas Pariwisata",
     "year": "2023",
-    "tags": ["Bootstrap 5", "VueJs", "Figma"],
+    "tags": [
+      "Bootstrap 5",
+      "VueJs",
+      "Figma"
+    ],
     "image": "./assets/img/portfolio/3.svg",
     "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
     "link": "./dinas-pariwisata-FE/"
@@ -26,7 +36,10 @@
   {
     "title": "TalentFinder - Joblisting Apps",
     "year": "2023",
-    "tags": ["Bootstrap 5", "Figma"],
+    "tags": [
+      "Bootstrap 5",
+      "Figma"
+    ],
     "image": "./assets/img/portfolio/4.svg",
     "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
     "link": "#"
