@@ -29,19 +29,8 @@
       "VueJs",
       "Figma"
     ],
-    "image": "./assets/img/portfolio/3.svg",
+    "image": "./assets/img/portfolio/4.svg",
     "description": "Portal pariwisata daerah yang interaktif, menampilkan destinasi wisata, event budaya, dan kuliner khas daerah.",
     "link": "./dinas-pariwisata-FE/"
-  },
-  {
-    "title": "TalentFinder - Joblisting Apps",
-    "year": "2023",
-    "tags": [
-      "Bootstrap 5",
-      "Figma"
-    ],
-    "image": "./assets/img/portfolio/4.svg",
-    "description": "Aplikasi pencarian kerja (job listing) modern yang mempertemukan pencari kerja dengan lowongan pekerjaan secara efisien.",
-    "link": "#"
   }
 ]
