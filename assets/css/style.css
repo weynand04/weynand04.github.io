@@ -42,6 +42,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -663,6 +664,8 @@ footer::before {
 @media (max-width: 900px) {
   nav {
     top: 0;
+    left: 0;
+    transform: none;
     width: 100%;
     border-radius: 0;
     max-width: 100%;

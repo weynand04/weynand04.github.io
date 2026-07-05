@@ -7,7 +7,7 @@
       "Bootstrap",
       "Figma"
     ],
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
+    "description": "Website profil perusahaan interaktif untuk klinik kecantikan DoctorQuinsy, menampilkan informasi layanan, kontak, dan integrasi mockup Figma.",
     "image": "./assets/img/portfolio/1.svg",
     "link": "./doctor-quincy-landingpages/"
   },
@@ -17,7 +17,7 @@
     "tags": [
       "Bootstrap 5"
     ],
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
+    "description": "Website profil pemuda gereja PAM Effata Waupnor, digunakan untuk membagikan info kegiatan, kepengurusan, dan berita komunitas.",
     "image": "./assets/img/portfolio/2.svg",
     "link": "./profile-pamEffata-FE/"
   },
@@ -30,7 +30,7 @@
       "Figma"
     ],
     "image": "./assets/img/portfolio/3.svg",
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
+    "description": "Portal pariwisata daerah yang interaktif, menampilkan destinasi wisata, event budaya, dan kuliner khas daerah.",
     "link": "./dinas-pariwisata-FE/"
   },
   {
@@ -41,7 +41,7 @@
       "Figma"
     ],
     "image": "./assets/img/portfolio/4.svg",
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
+    "description": "Aplikasi pencarian kerja (job listing) modern yang mempertemukan pencari kerja dengan lowongan pekerjaan secara efisien.",
     "link": "#"
   }
 ]

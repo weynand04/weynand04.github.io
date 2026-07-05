@@ -50,7 +50,6 @@ export class AnimationManager {
         });
 
         srLeft.reveal(".about-info", { delay: 100 });
-        srLeft.reveal(".contact-info", { delay: 100 });
 
         const srRight = window.ScrollReveal({
             origin: "right",
@@ -60,7 +59,5 @@ export class AnimationManager {
         });
 
         srRight.reveal(".skills-box", { delay: 100 });
-        srRight.reveal(".form-control", { delay: 100 });
-        srRight.reveal(".swiper-slide", { delay: 100 });
     }
 }

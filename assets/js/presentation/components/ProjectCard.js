@@ -26,8 +26,8 @@ export class ProjectCard {
             ${tagsHtml}
           </div>
           <p class="desc">${this.project.description}</p>
-          <a href="${this.project.link}" target="_blank" rel="noopener noreferrer">
-            <button class="btn">Preview <i class="uil uil-eye"></i></button>
+          <a href="${this.project.link}" target="_blank" rel="noopener noreferrer" class="btn">
+            Preview <i class="uil uil-eye"></i>
           </a>
         </div>
     `;

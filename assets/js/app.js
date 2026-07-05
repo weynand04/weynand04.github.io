@@ -10,6 +10,8 @@ class App {
         this.navManager = new NavigationManager();
         this.animManager = new AnimationManager();
         this.projectContainer = document.getElementById('project-container');
+        this.searchInput = document.querySelector('.search__input');
+        this.projects = [];
     }
 
     async init() {
@@ -19,6 +21,9 @@ class App {
 
         // 2. Load Projects (Clean Architecture)
         await this.loadProjects();
+
+        // 3. Setup search functionality
+        this.setupSearch();
     }
 
     async loadProjects() {
@@ -27,11 +32,26 @@ class App {
             const repository = new ProjectRepositoryImpl(dataSource);
             const getProjects = new GetProjects(repository);
 
-            const projects = await getProjects.execute();
-            this.renderProjects(projects);
+            this.projects = await getProjects.execute();
+            this.renderProjects(this.projects);
         } catch (error) {
             console.error("Failed to load projects:", error);
             this.projectContainer.innerHTML = '<p>Failed to load projects.</p>';
+        }
+    }
+
+    setupSearch() {
+        if (this.searchInput) {
+            this.searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const filtered = this.projects.filter(project => {
+                    const matchesTitle = project.title.toLowerCase().includes(query);
+                    const matchesDesc = project.description.toLowerCase().includes(query);
+                    const matchesTags = project.tags.some(tag => tag.toLowerCase().includes(query));
+                    return matchesTitle || matchesDesc || matchesTags;
+                });
+                this.renderProjects(filtered);
+            });
         }
     }
 
