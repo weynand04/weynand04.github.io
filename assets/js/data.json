@@ -30,45 +30,5 @@
     "image": "./assets/img/portfolio/4.svg",
     "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
     "link": "#"
-  },
-  {
-    "title": "TodoList Apps",
-    "year": "2024",
-    "tags": ["Bootstrap 5"],
-    "image": "./assets/img/portfolio/5.svg",
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
-    "link": "#"
-  },
-  {
-    "title": "Rental Apps",
-    "year": "2024",
-    "tags": ["Bootstrap 5", "Laravel"],
-    "image": "./assets/img/portfolio/6.svg",
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
-    "link": "#"
-  },
-  {
-    "title": "AnimeList",
-    "year": "2024",
-    "tags": ["VueJs", "Vuetify", "Restful API", "Web Scrapping"],
-    "image": "./assets/img/portfolio/7.svg",
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
-    "link": "#"
-  },
-  {
-    "title": "Absensi QR",
-    "year": "2024",
-    "tags": ["Laravel", "Bootstrap 5", "QR Code"],
-    "image": "./assets/img/portfolio/8.svg",
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
-    "link": "#"
-  },
-  {
-    "title": "Absensi QR 2",
-    "year": "2024",
-    "tags": ["Laravel", "Bootstrap 5", "QR Code"],
-    "image": "./assets/img/portfolio/9.svg",
-    "description": "Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.",
-    "link": "#"
   }
 ]

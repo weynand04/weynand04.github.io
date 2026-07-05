@@ -7,6 +7,7 @@ This project was created using HTML, JavaScript and CSS technologies. This proje
     - Single page aplication
     - Animation navigation bar
     - Scroll animation
+    - Fetch json Data
 
 # Features to be added in the future
 
