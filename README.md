@@ -7,24 +7,10 @@ Personal portfolio website built with modular Vanilla JavaScript and CSS.
 - **Modular JavaScript**: Clean Architecture implemented using Native ES Modules (No Node.js/Build step required).
 - **Dynamic Content**: Projects loaded dynamically from `data.json`.
 
-<<<<<<< HEAD
     - Single page aplication
     - Animation navigation bar
     - Scroll animation
     - Fetch json Data
-=======
-## Technologies
-- **HTML5**
-- **CSS3** (Variables, Flexbox, Grid)
-- **JavaScript** (ES6+ Module)
-- **Libraries**:
-  - [ScrollReveal](https://scrollrevealjs.org/) for scroll animations.
-  - [Typed.js](https://github.com/mattboldt/typed.js/) for typing effects.
-  - [Unicons](https://iconscout.com/unicons) for icons.
-- **Fonts** (via Google Fonts):
-  - [Outfit](https://fonts.google.com/specimen/Outfit) (Headings)
-  - [Inter](https://fonts.google.com/specimen/Inter) (Body)
->>>>>>> 372510fb786949bff5333295114c6cb314c4e8b8
 
 ## Setup
 Simply open `index.html` in a modern web browser. No installation required.
